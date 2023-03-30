@@ -51,9 +51,9 @@ borders = borders_of_blob(blob, border_width=10)
 ![](borders.png)
 
 
-## Parameters
+## API
 
-Parameters
+Both `blob_mask` and `borders_of_blob` return a `PIL.Image` object. The following parameters can be specified:
 
 **`blob_mask`**:
  * `seed`: Seed of the blob, either a string or an integer (default: Random)
