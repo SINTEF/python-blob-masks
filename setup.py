@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="blob-masks",
-    version="0.1.0",
+    version="0.1.3",
     packages=find_packages(),
     install_requires=[
         "numpy>=1.24.2",
@@ -19,7 +19,7 @@ setup(
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: WTFPL",
+        "License :: Public Domain",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
